@@ -1,0 +1,8 @@
+#!/usr/bin/sh
+export XDG_CURRENT_DESKTOP=kde
+export QT_QPA_PLATFORM=wayland
+#export SDL_VIDEO_DRIVER=wayland
+export MOZ_ENABLE_WAYLAND=true
+export _JAVA_AWT_WM_NONREPARENTING=1
+export SWAY_SCREENSHOT_DIR=~/Pictures
+export TERMINAL_COMMAND=kitty
